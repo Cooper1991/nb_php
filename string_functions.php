@@ -11,22 +11,15 @@ for($x =1; $x <= $string_length; $x++){
 }
 
 
-//Convert string to lowercase
+//Convert string to lowercase & uppercase
 
-$string2 = 'This is a normal case';
+$case = 'This is a normal string';
 
-$string2_lower = strtolower($string2);
+$case_lower = strtolower($case);
+$case_upper = strtoupper($case);
 
-echo $string2_lower;
+echo $case_lower . "<br>";
+echo $case_upper . "<br>";
 
-echo "<br>";
-
-//Convert string to uppercase
-
-$string3 = 'This is another case';
-
-$string3_upper = strtoupper($string3);
-
-echo $string3_upper;
 
 ?>
