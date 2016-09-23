@@ -19,3 +19,12 @@ if(!empty($http_client_ip)){
 };
 
 echo $client_ip;
+
+var person = {
+    firstname:"John",
+    lastname:"Doe",
+    age:50,
+    eyecolor:"blue"
+};
+document.getElementById("demo").innerHTML =
+person.firstname + " is " + person.age + " years old.";
